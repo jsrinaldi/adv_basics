@@ -7,19 +7,22 @@
         {
             "name": "adv_basics",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "program": "${workspaceFolder}/lib/models/main.dart"
         },
         {
             "name": "adv_basics (profile mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "profile",
+            "program": "${workspaceFolder}/lib/models/main.dart"
         },
         {
             "name": "adv_basics (release mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            "flutterMode": "release",
+            "program": "${workspaceFolder}/lib/models/main.dart"
         }
     ]
 }
